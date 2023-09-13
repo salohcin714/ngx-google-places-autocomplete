@@ -1,0 +1,31 @@
+{
+  "name": "@barkhub/ngx-google-places-autocomplete",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/SuperBGLazer/ngx-google-places-autocomplete",
+  "keywords": [
+    "autocomplete",
+    "typescript",
+    "google places",
+    "angular 16",
+    "angular"
+  ],
+  "contributors": [
+    {
+      "name": "Stas Dmytryshyn",
+      "url": "https://github.com/skynet2/ngx-google-places-autocomplete"
+    },
+    {
+      "name": "Breyon Gunn"
+    }
+  ],
+  "version": "1.0.1",
+  "peerDependencies": {
+    "@angular/common": "^16.2.4",
+    "@angular/core": "^16.2.4"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

@@ -6,14 +6,10 @@ This module is a wrapper for Google Places Autocomplete js library.
 # Installation
 #### npm
 ```
-npm install ngx-google-places-autocomplete
-```
-#### yarn
-```
-yarn add ngx-google-places-autocomplete
+npm install @barkhub/ngx-google-places-autocomplete
 ```
 # Integration
-1. Add google library in your index.html file : 
+1. Add google library in your index.html file :
 ```
     <script src="https://maps.googleapis.com/maps/api/js?key=<Your API KEY>&libraries=places&language=en"></script>
 ```
@@ -22,7 +18,7 @@ yarn add ngx-google-places-autocomplete
 # Usage
 1. Add a module into your application (as a rule app.module.ts)
 ```ts
-import { GooglePlaceModule } from "ngx-google-places-autocomplete";
+import { GooglePlaceModule } from "@barkhub/ngx-google-places-autocomplete";
 
 @NgModule({
     imports: [GooglePlaceModule, BrowserModule, FormsModule, ...],
@@ -49,7 +45,7 @@ In order to use under angular universal please check that comment https://github
 Refer to original google maps api - https://developers.google.com/maps/documentation/javascript/places-autocomplete
 Options object - https://github.com/skynet2/ngx-google-places-autocomplete/blob/master/src/objects/options/options.ts
 Google doc for Options : https://developers.google.com/maps/documentation/javascript/reference/places-widget#AutocompleteOptions
-Example : 
+Example :
 ```html  
 [options]="{
     types: [],

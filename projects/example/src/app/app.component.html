@@ -1,0 +1,5 @@
+<input ngx-google-places-autocomplete (onAddressChange)="onAddressChange($event)">
+<div *ngIf="address">
+  <p>Address: {{address.formatted_address}}</p>
+  <p>GPS coordinates: {{address.geometry?.location}}</p>
+</div>
