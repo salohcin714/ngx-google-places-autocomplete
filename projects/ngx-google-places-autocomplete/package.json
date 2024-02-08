@@ -20,10 +20,10 @@
       "name": "Breyon Gunn"
     }
   ],
-  "version": "1.0.1",
+  "version": "2.0.0",
   "peerDependencies": {
-    "@angular/common": "^16.2.4",
-    "@angular/core": "^16.2.4"
+    "@angular/common": "^17.1.2",
+    "@angular/core": "^17.1.2"
   },
   "dependencies": {
     "tslib": "^2.3.0"
